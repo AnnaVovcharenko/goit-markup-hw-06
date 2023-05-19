@@ -497,6 +497,7 @@ ol {
   display: block;
   width: 264px;
   height: 40px;
+  padding: 8px 0 8px 16px;
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
@@ -784,9 +785,7 @@ ol {
   fill: #2e2f42;
   pointer-events: none;
 }
-.div-textarea {
-  margin-bottom: 16px;
-}
+
 .modal-textarea {
   display: block;
   resize: none;
@@ -800,7 +799,7 @@ ol {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  
+  margin-bottom: 16px;
   transition: var(--anim-fast);
 }
 .modal-textarea:focus {
@@ -811,10 +810,16 @@ ol {
 
 .modal-label-checkbox {
   display: flex;
-  gap: 8px;
   align-items: center;
   margin-bottom: 24px;
   font-size: 12px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: #8E8F99;
 }
 
 .modal-checkbox-input {
@@ -828,6 +833,7 @@ ol {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: var(--anim-fast);
+  margin-right: 8px;
 
 }
 .modal-checkbox-input:checked + .icon-checkbox{
@@ -838,7 +844,10 @@ background-size: contain;
 background-origin: border-box;
 }
 
-
+.checkbox-link{
+  color: var(--color-iris);
+  margin-left: 4px;
+}
 
 
 .modal-botton {
